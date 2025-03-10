@@ -1,0 +1,46 @@
+<html>
+	<body>	
+		<script>
+			/*// PRINT NUMBER B/W 1-N AND COUNT HOW MANY POSITIVE,NEGATIVE?
+			n=parseInt(prompt("Enter A Number: "))//4
+			fn=1
+			for (s=1;s<=n;s++)
+			{
+				fn*=s
+			}
+			document.write("Factorial Number: ",n," is ",fn)
+			*/
+			/*
+			nn=parseInt(prompt("Enter A Number: "))//4
+			temp=nn
+			f=1
+			while (nn>0)
+			{
+				f*=nn
+				nn--
+			}
+			document.write("Factorial Number: ",temp," is ",f)
+			*/
+			
+			// ENTER A NUMBER AND CHECK NUMBER IS ARMSTRONG OR NOT?
+			n=parseInt(prompt("Enter A Number: "))//42
+			t=n
+			cs=0
+			while (n>0)
+			{
+				d=n%10 // 4
+				n=parseInt(n/10) // 0
+				cs=cs+(d**3)
+			}
+			if (t==cs)
+			{
+				document.write(t," IS ARMSTRONG NO.")
+			}
+			else
+			{
+				document.write(t," IS NOT ARMSTRONG NO.")
+			}
+		</script>
+	</body>
+</html>
+
